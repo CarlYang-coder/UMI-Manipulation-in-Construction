@@ -6,6 +6,8 @@ Looking ahead, we aim to extend the system to **mobile robotic platforms**, enab
 
 ## Hardware Design
 
+For hardware-related files, designs, and supporting materials, please refer to the [Hardware](./Hardware) directory.
+
 The hardware system is designed to support construction-oriented robotic manipulation tasks in real-world environments. It provides an integrated platform for demonstration collection, policy deployment, and real-time inference, while also offering a foundation for future extensions to mobile robotic systems operating in dynamic and large-scale construction settings.
 
 ## Data Collection
