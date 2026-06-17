@@ -12,7 +12,7 @@ The hardware system is designed to support construction-oriented robotic manipul
 
 The data collection pipeline is built upon the UMI-FT framework and its iPhone-based sensing system, enabling efficient capture of human demonstrations for construction manipulation tasks. It supports the acquisition of multimodal data that can be used for downstream policy learning and system evaluation.
 
-## Trajectory Calibration on xArm
+## Calibration on xArm
 
 The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assessment. This capability helps ensure consistency between collected demonstrations and deployed robot behaviors.
 
