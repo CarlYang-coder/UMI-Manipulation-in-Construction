@@ -9,8 +9,8 @@ Looking ahead, we aim to extend the system to **mobile robotic platforms**, enab
 For hardware-related files, designs, and supporting materials, please refer to the [Hardware](./Hardware) directory.
 
 <p align="center">
-  <img src="./Hardware/image/hardware-design-1.png" alt="Hardware design 1" width="45%" />
-  <img src="./Hardware/image/hardware-design-2.png" alt="Hardware design 2" width="45%" />
+  <img src="./Hardware/image/hardware-design-1.png" alt="Hardware design 1" height="320" />
+  <img src="./Hardware/image/hardware-design-2.png" alt="Hardware design 2" height="320" />
 </p>
 
 The hardware system is designed to support construction-oriented robotic manipulation tasks in real-world environments. It provides an integrated platform for demonstration collection, policy deployment, and real-time inference, while also offering a foundation for future extensions to mobile robotic systems operating in dynamic and large-scale construction settings.
