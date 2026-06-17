@@ -9,8 +9,8 @@ Looking ahead, we aim to extend the system to **mobile robotic platforms**, enab
 For hardware-related files, designs, and supporting materials, please refer to the [Hardware](./Hardware) directory.
 
 <p align="center">
-  <img src="./Hardware/image/image1.png" alt="hardware-design-1" width="45%" />
-  <img src="./Hardware/image/image2.png" alt="hardware-design-2" width="45%" />
+  <img src="./Hardware/image/hardware-design-1.png" alt="Hardware design 1" width="45%" />
+  <img src="./Hardware/image/hardware-design-2.png" alt="Hardware design 2" width="45%" />
 </p>
 
 The hardware system is designed to support construction-oriented robotic manipulation tasks in real-world environments. It provides an integrated platform for demonstration collection, policy deployment, and real-time inference, while also offering a foundation for future extensions to mobile robotic systems operating in dynamic and large-scale construction settings.
@@ -19,7 +19,7 @@ The hardware system is designed to support construction-oriented robotic manipul
 
 The data collection pipeline is built upon the UMI-FT framework and its iPhone-based sensing system, enabling efficient capture of human demonstrations for construction manipulation tasks. It supports the acquisition of multimodal data that can be used for downstream policy learning and system evaluation.
 
-## Calibration on xArm
+## Trajectory Replay
 
 The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assessment. This capability helps ensure consistency between collected demonstrations and deployed robot behaviors.
 
