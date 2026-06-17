@@ -1,2 +1,5 @@
 # UMI-Manipulation-in-Construction
-Based on UMI-FT and the accompanying iPhone data collection application, we developed an end-to-end pipeline for construction robotics, including data collection, model training, and deployment for inference. 
+
+Building upon **UMI-FT** and its iPhone-based data collection framework, this project establishes an end-to-end workflow for **construction robotics**, spanning **demonstration collection**, **policy training**, and **real-time inference**.
+
+Looking ahead, we aim to extend the system to **mobile robotic platforms**, enabling more complex construction manipulation tasks in **dynamic** and **large-scale environments**.
