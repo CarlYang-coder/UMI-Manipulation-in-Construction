@@ -1,6 +1,6 @@
 # UMI-Manipulation-in-Construction
 
-Building upon **UMI-FT** (https://github.com/real-stanford/UMI-FT) and its iPhone-based data collection framework, this project establishes an end-to-end workflow for **construction robotics**, spanning **demonstration collection**, **policy training**, and **real-time inference**.
+Building upon **UMI-FT** (https://github.com/real-stanford/UMI-FT) and its iPhone-based data collection framework, this project establishes an end-to-end workflow for **construction robotics**, spa[...]
 
 Looking ahead, we aim to extend the system to **mobile robotic platforms**, enabling more complex construction manipulation tasks in **dynamic** and **large-scale environments**.
 
@@ -13,7 +13,7 @@ For hardware-related files, designs, and supporting materials, please refer to t
   <img src="./Hardware/image/hardware-design-2.png" alt="Hardware design 2" height="320" />
 </p>
 
-The hardware system is designed to support construction-oriented robotic manipulation tasks in real-world environments. It provides an integrated platform for demonstration collection, policy deployment, and real-time inference, while also offering a foundation for future extensions to mobile robotic systems operating in dynamic and large-scale construction settings.
+The hardware system is designed to support construction-oriented robotic manipulation tasks in real-world environments. It provides an integrated platform for demonstration collection, policy depl[...]
 
 ## Data Collection
 
@@ -23,7 +23,7 @@ To collect 3D demonstration data, an **iPhone 15 Pro or newer** is required, as 
 
 #### Procedure
 
-1. Install the **Record3D** application on the iPhone.
+1. Install the [**Record3D**](https://record3d.app/) application on the iPhone.
 2. Launch the application and use the **Record** function to capture demonstrations.
 3. Each recording is saved as an `.r3d` file, containing synchronized **RGB images**, **depth data**, and **camera pose information** for downstream processing.
 
@@ -32,8 +32,8 @@ Refer to the [Data](./Data) directory for data and its processing.
 
 ## Trajectory Replay
 
-The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assessment. This capability helps ensure consistency between collected demonstrations and deployed robot behaviors.
+The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assess[...]
 
 ## Multi-Model
 
-The multi-model framework is designed to support different policy representations and learning strategies for construction robotics tasks. By enabling flexible integration of multiple models, the system can better adapt to diverse manipulation scenarios and serve as a foundation for future extensions in complex environments.
+The multi-model framework is designed to support different policy representations and learning strategies for construction robotics tasks. By enabling flexible integration of multiple models, the [...]
