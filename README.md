@@ -19,6 +19,16 @@ The hardware system is designed to support construction-oriented robotic manipul
 
 The data collection pipeline is built upon the UMI-FT framework and its iPhone-based sensing system, enabling efficient capture of human demonstrations for construction manipulation tasks. It supports the acquisition of multimodal data that can be used for downstream policy learning and system evaluation.
 
+### 3D Demonstration Data Collection
+
+To collect 3D demonstration data, an **iPhone 15 Pro or newer** is required, as these devices provide depth sensing capabilities through the built-in **LiDAR sensor**.
+
+#### Procedure
+
+1. Install the **Record3D** application on the iPhone.
+2. Launch the application and use the **Record** function to capture demonstrations.
+3. Each recording is saved as an `.r3d` file, containing synchronized **RGB images**, **depth data**, and **camera pose information** for downstream processing.
+
 ## Trajectory Replay
 
 The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assessment. This capability helps ensure consistency between collected demonstrations and deployed robot behaviors.
