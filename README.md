@@ -28,7 +28,7 @@ To collect 3D demonstration data, an **iPhone 15 Pro or newer** is required, as 
 3. Each recording is saved as an `.r3d` file, containing synchronized **RGB images**, **depth data**, and **camera pose information** for downstream processing.
 
 ### Data Processing
-Refer to the [Software](./Software) directory for data and its processing.
+Refer to the [Data](./Data) directory for data and its processing.
 
 ## Trajectory Replay
 
