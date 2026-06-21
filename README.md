@@ -31,6 +31,8 @@ To collect 3D demonstration data, an **iPhone 15 Pro or newer** is required, as 
 Refer to the [Data](./Data) directory for data and its processing.
 
 ## Trajectory Replay
+
+### Calibration
 Refer to the [Data](./Data) directory for data and its processing.
 
 
