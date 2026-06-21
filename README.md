@@ -31,8 +31,8 @@ To collect 3D demonstration data, an **iPhone 15 Pro or newer** is required, as 
 Refer to the [Data](./Data) directory for data and its processing.
 
 ## Trajectory Replay
+Refer to the [Data](./Data) directory for data and its processing.
 
-The trajectory replay module allows recorded demonstrations to be executed and analyzed within the robotic system, providing a practical mechanism for validation, debugging, and performance assess[...]
 
 ## Multi-Model
 
