@@ -1,4 +1,4 @@
-# UMI-Manipulation-in-Construction
+# UMI-Manipulation in Construction
 
 Building upon **UMI-FT** (https://github.com/real-stanford/UMI-FT) and its iPhone-based data collection framework, this project establishes an end-to-end workflow for **construction robotics**, spa[...]
 
