@@ -46,5 +46,5 @@ The first model is a lightweight baseline trained on 30 demos for comparison. It
 <p align="center">
   <img src="./Hardware/image/multi-model-2.png" alt="Hardware design 2" height="320" />
 </p>
-
+The second model incorporates depth information and partially follows the architecture proposed in the original paper, but does not include tactile sensing. The number of demos is increased to 100.
 
