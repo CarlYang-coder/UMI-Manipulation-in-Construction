@@ -1,0 +1,17 @@
+aruco_dict:
+  predefined: DICT_4X4_50
+
+marker_size_map:
+  default: 0.016
+  0: 0.016
+  1: 0.016
+
+gripper:
+  left_finger_id: 0
+  right_finger_id: 1
+  nominal_z: 0.072
+  z_tolerance: 0.008
+
+detection:
+  corner_refinement: true
+  hold_last_value_timeout: 0.5

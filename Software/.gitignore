@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Data — too large for Github, use Google Drive
+Data/
+Data_Raw/
+Data_Raw_*/
+Data_test/
+*.mp4
+*.MP4
+*.png
+*.PNG
+*.jpg
+*.jpeg
+
+# Trained checkpoints — too large for Github, use Google Drive
+checkpoints/
+checkpoints_*/
+*.pt
+*.ckpt
+*.pth
+*.safetensors
+
+# Other large files
+Model_Result/
+*.zarr/
+*.h5
+*.bag
+
+# Logs / temporary
+*.log
+*.tmp
+*.cache
+rollout_rgb/
+sparse_normalizer.pkl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Allow specific small files even when patterns above would exclude them
+!calibration/*.json
+!train/training_loss.png
+!train/pose_calibration_data.npz
+!train/pose_calibration_data_transform.npz
