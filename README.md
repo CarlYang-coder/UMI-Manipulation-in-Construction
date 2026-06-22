@@ -38,9 +38,10 @@ Refer to the [Calibration](./Software) directory for data and its processing, wh
 
 ## Multi-Model
 
+Please check the diffrent [Models](./Software/train) below.
 <p align="center">
   <img src="./Hardware/image/multi-model-1.png" alt="Hardware design 1" height="320" />
   <img src="./Hardware/image/multi-model-2.png" alt="Hardware design 2" height="320" />
 </p>
 
-The multi-model framework is designed to support different policy representations and learning strategies for construction robotics tasks. By enabling flexible integration of multiple models, the [...]
+
