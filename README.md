@@ -41,6 +41,9 @@ Refer to the [Calibration](./Software) directory for data and its processing, wh
 Please check the diffrent [Models](./Software/train) below.
 <p align="center">
   <img src="./Hardware/image/multi-model-1.png" alt="Hardware design 1" height="320" />
+</p>
+The first model is a lightweight baseline trained on 30 demos for comparison. It does not incorporate depth information, and the training and inference results show that it is only capable of completing localized actions.
+<p align="center">
   <img src="./Hardware/image/multi-model-2.png" alt="Hardware design 2" height="320" />
 </p>
 
