@@ -33,7 +33,7 @@ Refer to the [Data](./Data) directory for data and its processing.
 ## Trajectory Replay
 
 ### Calibration
-Refer to the [Data](./Data) directory for data and its processing.
+Refer to the [Calibration](./Software) directory for data and its processing, where also provides [Calibration](./Software) the trajectory.
 
 
 ## Multi-Model
