@@ -1,0 +1,26 @@
+# Open-loop replay configuration for xArm7
+
+# Camera-to-EE rigid transform (camera frame → end-effector frame)
+camera_to_ee:
+  translation: [0.0, 0.0, 0.0]      # meters: [x, y, z] from camera origin to EE origin
+  quaternion: [1.0, 0.0, 0.0, 0.0]   # [qw, qx, qy, qz] rotation from camera frame to EE frame
+
+# xArm7 connection and motion settings
+xarm:
+  ip: "192.168.1.xxx"
+  mode: "servo"            # "servo" (smooth streaming) or "position" (point-by-point)
+  servo_rate_hz: 100       # Hz, target command rate for servo mode
+
+# Gripper mapping: normalized [0,1] → xArm gripper position
+gripper:
+  min_pos: 0               # xArm gripper position when fully closed
+  max_pos: 800             # xArm gripper position when fully open
+  speed: 5000              # gripper motion speed
+
+# Safety limits
+safety:
+  workspace_min: [-700, -700, 0]    # mm [x, y, z] lower bounds
+  workspace_max: [700, 700, 700]    # mm [x, y, z] upper bounds
+  max_step_distance: 50             # mm, max distance between consecutive waypoints
+  max_speed: 200                    # mm/s, max Cartesian speed
+  dry_run: true                     # if true, print poses without commanding robot
