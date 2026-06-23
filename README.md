@@ -120,6 +120,7 @@ The first model is a lightweight baseline trained on 30 demos for comparison. It
 </p>
 The second model incorporates depth information and partially follows the architecture proposed in the original paper, but does not include tactile sensing. The number of demos is increased to 100.
 
+
 The diffusion-policy training code follows the official **UMI-FT** pattern
 (`Software/train/train_umi_ft.py`):
 
